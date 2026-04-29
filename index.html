@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce | Catálogo & Especiales</title>
+    <meta name="description" content="Accede a nuestro catálogo tecnológico y contenido exclusivo de Mario Vargas Llosa.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+    <div class="bg-blob"></div>
+
+    <main>
+        <header class="fade-in">
+            <div class="logo">Dulce Experience</div>
+            <h1>Contenido <br>Exclusivo</h1>
+            <p class="subtitle">Selecciona un documento para visualizar o descargar.</p>
+        </header>
+
+        <section class="card-container">
+            <!-- Card 1 -->
+            <div class="pdf-card fade-in delay-1">
+                <div class="tag">Tecnología & Salud</div>
+                <div class="card-icon">
+                    <i data-lucide="book-open"></i>
+                </div>
+                <div class="card-info">
+                    <h2>Folleto de Tecnología</h2>
+                    <p>Minimalismo y bienestar en la era digital. (10.5 MB)</p>
+                </div>
+                <div class="actions">
+                    <a href="assets/folleto.pdf" class="btn btn-outline" target="_blank">
+                        <i data-lucide="eye" style="width: 16px; margin-right: 8px; vertical-align: middle;"></i>Ver
+                    </a>
+                    <a href="assets/folleto.pdf" download class="btn btn-primary">
+                        <i data-lucide="download" style="width: 16px; margin-right: 8px; vertical-align: middle;"></i>Descargar
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="pdf-card fade-in delay-2">
+                <div class="tag">Literatura</div>
+                <div class="card-icon">
+                    <i data-lucide="feather"></i>
+                </div>
+                <div class="card-info">
+                    <h2>Mario Vargas Llosa</h2>
+                    <p>Obra y legado del Premio Nobel. (22.8 MB)</p>
+                </div>
+                <div class="actions">
+                    <a href="assets/mario-vargas-llosa.pdf" class="btn btn-outline" target="_blank">
+                        <i data-lucide="eye" style="width: 16px; margin-right: 8px; vertical-align: middle;"></i>Ver
+                    </a>
+                    <a href="assets/mario-vargas-llosa.pdf" download class="btn btn-primary">
+                        <i data-lucide="download" style="width: 16px; margin-right: 8px; vertical-align: middle;"></i>Descargar
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="fade-in delay-3">
+            <p>&copy; 2026 Dulce QR Generator. Todos los derechos reservados.</p>
+            <p style="margin-top: 0.5rem; opacity: 0.5;">Optimizado para dispositivos móviles.</p>
+        </footer>
+    </main>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
